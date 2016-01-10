@@ -1,0 +1,72 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgParty.BoredPanda.Api", "ProgParty.BoredPanda.Api\ProgParty.BoredPanda.Api.csproj", "{FC8B3CAF-A122-4047-B5AC-99B2173A15F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgParty.BoredPanda.Phone", "ProgParty.BoredPanda.Phone\ProgParty.BoredPanda.Phone.csproj", "{C006C8D5-7931-42F3-9ED4-1D1CD88816FF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Screenshots", "Screenshots", "{F8931C17-FCDD-4FD1-8492-BBD93AA93700}"
+	ProjectSection(SolutionItems) = preProject
+		Screenshots\screen_shot_1.png = Screenshots\screen_shot_1.png
+		Screenshots\screen_shot_2.png = Screenshots\screen_shot_2.png
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC8B3CAF-A122-4047-B5AC-99B2173A15F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC8B3CAF-A122-4047-B5AC-99B2173A15F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC8B3CAF-A122-4047-B5AC-99B2173A15F2}.Debug|ARM.ActiveCfg = Debug|ARM
+		{FC8B3CAF-A122-4047-B5AC-99B2173A15F2}.Debug|ARM.Build.0 = Debug|ARM
+		{FC8B3CAF-A122-4047-B5AC-99B2173A15F2}.Debug|x86.ActiveCfg = Debug|x86
+		{FC8B3CAF-A122-4047-B5AC-99B2173A15F2}.Debug|x86.Build.0 = Debug|x86
+		{FC8B3CAF-A122-4047-B5AC-99B2173A15F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC8B3CAF-A122-4047-B5AC-99B2173A15F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC8B3CAF-A122-4047-B5AC-99B2173A15F2}.Release|ARM.ActiveCfg = Release|ARM
+		{FC8B3CAF-A122-4047-B5AC-99B2173A15F2}.Release|ARM.Build.0 = Release|ARM
+		{FC8B3CAF-A122-4047-B5AC-99B2173A15F2}.Release|x86.ActiveCfg = Release|x86
+		{FC8B3CAF-A122-4047-B5AC-99B2173A15F2}.Release|x86.Build.0 = Release|x86
+		{C006C8D5-7931-42F3-9ED4-1D1CD88816FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C006C8D5-7931-42F3-9ED4-1D1CD88816FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C006C8D5-7931-42F3-9ED4-1D1CD88816FF}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{C006C8D5-7931-42F3-9ED4-1D1CD88816FF}.Debug|ARM.ActiveCfg = Debug|ARM
+		{C006C8D5-7931-42F3-9ED4-1D1CD88816FF}.Debug|ARM.Build.0 = Debug|ARM
+		{C006C8D5-7931-42F3-9ED4-1D1CD88816FF}.Debug|ARM.Deploy.0 = Debug|ARM
+		{C006C8D5-7931-42F3-9ED4-1D1CD88816FF}.Debug|x86.ActiveCfg = Debug|x86
+		{C006C8D5-7931-42F3-9ED4-1D1CD88816FF}.Debug|x86.Build.0 = Debug|x86
+		{C006C8D5-7931-42F3-9ED4-1D1CD88816FF}.Debug|x86.Deploy.0 = Debug|x86
+		{C006C8D5-7931-42F3-9ED4-1D1CD88816FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C006C8D5-7931-42F3-9ED4-1D1CD88816FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C006C8D5-7931-42F3-9ED4-1D1CD88816FF}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{C006C8D5-7931-42F3-9ED4-1D1CD88816FF}.Release|ARM.ActiveCfg = Release|ARM
+		{C006C8D5-7931-42F3-9ED4-1D1CD88816FF}.Release|ARM.Build.0 = Release|ARM
+		{C006C8D5-7931-42F3-9ED4-1D1CD88816FF}.Release|ARM.Deploy.0 = Release|ARM
+		{C006C8D5-7931-42F3-9ED4-1D1CD88816FF}.Release|x86.ActiveCfg = Release|x86
+		{C006C8D5-7931-42F3-9ED4-1D1CD88816FF}.Release|x86.Build.0 = Release|x86
+		{C006C8D5-7931-42F3-9ED4-1D1CD88816FF}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://jensdenbraber.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ProgParty.BoredPanda.Phone\\ProgParty.BoredPanda.Phone.csproj
+		SccProjectName1 = ProgParty.BoredPanda.Phone
+		SccLocalPath1 = ProgParty.BoredPanda.Phone
+		SccProjectUniqueName2 = ProgParty.BoredPanda.Api\\ProgParty.BoredPanda.Api.csproj
+		SccProjectName2 = ProgParty.BoredPanda.Api
+		SccLocalPath2 = ProgParty.BoredPanda.Api
+	EndGlobalSection
+EndGlobal
