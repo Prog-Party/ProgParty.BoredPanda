@@ -1,5 +1,6 @@
 # ProgParty.BoredPanda
 BoredPanda - The Only Magazine For Pandas
+<br /><a href="https://www.microsoft.com/en-us/store/apps/boredpanda/9nblggh5k5f6">Url to the app</a>
 
 ## Screenshots
 
