@@ -115,7 +115,6 @@ namespace ProgParty.BoredPanda
 
             await Task.Factory.StartNew(() => Searcher.ExecuteSingleArticleScrape(this, context, selectedItem), source.Token);
 
-            //Core.Track.Telemetry.Instance.Action($"Shown {PageDataContext.CurrentArticleGallery.ToString()}");
         }
 
         private void ComboBoxMenu_SelectionChanged(object sender, SelectionChangedEventArgs e)

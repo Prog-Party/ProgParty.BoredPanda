@@ -17,6 +17,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgParty.BoredPanda.ApiUni
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgParty.BoredPanda.Universal", "ProgParty.BoredPanda.Universal\ProgParty.BoredPanda.Universal.csproj", "{5360940A-B5EE-4081-B83C-E384632B6703}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bin", "Bin", "{5B984B0C-C7B4-4DA8-A888-E2C9F1A4340E}"
+	ProjectSection(SolutionItems) = preProject
+		Bin\ProgParty.Core.dll = Bin\ProgParty.Core.dll
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

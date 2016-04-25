@@ -49,8 +49,8 @@
 
                                                     <StackPanel Margin="10,0" Grid.Column="1" Orientation="Vertical">
 
-                                                        <TextBlock FontWeight="Bold" Text="{Binding Title}" TextWrapping="WrapWholeWords" TextAlignment="Left" />
-                                                        <TextBlock Text="{Binding SubTitle}" FontSize="9" TextWrapping="WrapWholeWords" TextAlignment="Left" />
+                                                        <TextBlock Foreground="Black" FontWeight="Bold" Text="{Binding Title}" TextWrapping="WrapWholeWords" TextAlignment="Left" />
+                                                        <TextBlock Foreground="Black" Text="{Binding SubTitle}" FontSize="9" TextWrapping="WrapWholeWords" TextAlignment="Left" />
                                                     </StackPanel>
                                                 </Grid>
                                             </Border>
@@ -155,7 +155,7 @@
                                                     <TextBlock Text="{Binding AuthorTime}" TextAlignment="Left" Foreground="Black" FontSize="10" />
                                                 </StackPanel>
 
-                                                <RichTextBlock Padding="5,0,5,0" TextWrapping="Wrap" Width="380" shared:HtmlToRtfConverter.Html="{Binding Content}" Foreground="Black"></RichTextBlock>
+                                                <RichTextBlock Padding="5,0,5,0" TextWrapping="Wrap" Width="340" shared:HtmlToRtfConverter.Html="{Binding Content}" Foreground="Black"></RichTextBlock>
                                             </StackPanel>
                                         </Grid>
                                     </DataTemplate>
