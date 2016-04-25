@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgParty.BoredPanda.Api", "ProgParty.BoredPanda.Api\ProgParty.BoredPanda.Api.csproj", "{FC8B3CAF-A122-4047-B5AC-99B2173A15F2}"
 EndProject
@@ -12,6 +12,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Screenshots", "Screenshots"
 		Screenshots\screen_shot_1.png = Screenshots\screen_shot_1.png
 		Screenshots\screen_shot_2.png = Screenshots\screen_shot_2.png
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgParty.BoredPanda.ApiUniversal", "ProgParty.BoredPanda.ApiUniversal\ProgParty.BoredPanda.ApiUniversal.csproj", "{FA4BECCF-5F83-4FD9-92F5-90B8AC3B328D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgParty.BoredPanda.Universal", "ProgParty.BoredPanda.Universal\ProgParty.BoredPanda.Universal.csproj", "{5360940A-B5EE-4081-B83C-E384632B6703}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,20 +57,38 @@ Global
 		{C006C8D5-7931-42F3-9ED4-1D1CD88816FF}.Release|x86.ActiveCfg = Release|x86
 		{C006C8D5-7931-42F3-9ED4-1D1CD88816FF}.Release|x86.Build.0 = Release|x86
 		{C006C8D5-7931-42F3-9ED4-1D1CD88816FF}.Release|x86.Deploy.0 = Release|x86
+		{FA4BECCF-5F83-4FD9-92F5-90B8AC3B328D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA4BECCF-5F83-4FD9-92F5-90B8AC3B328D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA4BECCF-5F83-4FD9-92F5-90B8AC3B328D}.Debug|ARM.ActiveCfg = Debug|ARM
+		{FA4BECCF-5F83-4FD9-92F5-90B8AC3B328D}.Debug|ARM.Build.0 = Debug|ARM
+		{FA4BECCF-5F83-4FD9-92F5-90B8AC3B328D}.Debug|x86.ActiveCfg = Debug|x86
+		{FA4BECCF-5F83-4FD9-92F5-90B8AC3B328D}.Debug|x86.Build.0 = Debug|x86
+		{FA4BECCF-5F83-4FD9-92F5-90B8AC3B328D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA4BECCF-5F83-4FD9-92F5-90B8AC3B328D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA4BECCF-5F83-4FD9-92F5-90B8AC3B328D}.Release|ARM.ActiveCfg = Release|ARM
+		{FA4BECCF-5F83-4FD9-92F5-90B8AC3B328D}.Release|ARM.Build.0 = Release|ARM
+		{FA4BECCF-5F83-4FD9-92F5-90B8AC3B328D}.Release|x86.ActiveCfg = Release|x86
+		{FA4BECCF-5F83-4FD9-92F5-90B8AC3B328D}.Release|x86.Build.0 = Release|x86
+		{5360940A-B5EE-4081-B83C-E384632B6703}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5360940A-B5EE-4081-B83C-E384632B6703}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5360940A-B5EE-4081-B83C-E384632B6703}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{5360940A-B5EE-4081-B83C-E384632B6703}.Debug|ARM.ActiveCfg = Debug|ARM
+		{5360940A-B5EE-4081-B83C-E384632B6703}.Debug|ARM.Build.0 = Debug|ARM
+		{5360940A-B5EE-4081-B83C-E384632B6703}.Debug|ARM.Deploy.0 = Debug|ARM
+		{5360940A-B5EE-4081-B83C-E384632B6703}.Debug|x86.ActiveCfg = Debug|x86
+		{5360940A-B5EE-4081-B83C-E384632B6703}.Debug|x86.Build.0 = Debug|x86
+		{5360940A-B5EE-4081-B83C-E384632B6703}.Debug|x86.Deploy.0 = Debug|x86
+		{5360940A-B5EE-4081-B83C-E384632B6703}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5360940A-B5EE-4081-B83C-E384632B6703}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5360940A-B5EE-4081-B83C-E384632B6703}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{5360940A-B5EE-4081-B83C-E384632B6703}.Release|ARM.ActiveCfg = Release|ARM
+		{5360940A-B5EE-4081-B83C-E384632B6703}.Release|ARM.Build.0 = Release|ARM
+		{5360940A-B5EE-4081-B83C-E384632B6703}.Release|ARM.Deploy.0 = Release|ARM
+		{5360940A-B5EE-4081-B83C-E384632B6703}.Release|x86.ActiveCfg = Release|x86
+		{5360940A-B5EE-4081-B83C-E384632B6703}.Release|x86.Build.0 = Release|x86
+		{5360940A-B5EE-4081-B83C-E384632B6703}.Release|x86.Deploy.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 3
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://jensdenbraber.visualstudio.com/defaultcollection
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = ProgParty.BoredPanda.Phone\\ProgParty.BoredPanda.Phone.csproj
-		SccProjectName1 = ProgParty.BoredPanda.Phone
-		SccLocalPath1 = ProgParty.BoredPanda.Phone
-		SccProjectUniqueName2 = ProgParty.BoredPanda.Api\\ProgParty.BoredPanda.Api.csproj
-		SccProjectName2 = ProgParty.BoredPanda.Api
-		SccLocalPath2 = ProgParty.BoredPanda.Api
 	EndGlobalSection
 EndGlobal
