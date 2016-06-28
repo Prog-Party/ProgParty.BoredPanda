@@ -120,7 +120,7 @@ namespace ProgParty.BoredPanda.ApiUniversal.Scrape
 
         public OverviewResult ConvertSingleResult(HtmlNode node)
         {
-            var aDiv = node.Descendants("div").FirstOrDefault(c => c.Attributes["class"]?.Value == "post-cover-container")?.Descendants("a").FirstOrDefault();
+            var aDiv = node.Descendants("div").FirstOrDefault(c => c.Attributes["class"]?.Value == "post-cover-container")?.Descendants("a")?.FirstOrDefault();
 
             var o = new OverviewResult()
             {

@@ -33,7 +33,13 @@ namespace ProgParty.BoredPanda.Api.Scrape
             }
         }
 
-        public string ConstructUrl() => $"http://www.boredpanda.com{GetBaseUrl()}/page/{Parameters.Paging}";
+        public string ConstructUrl()
+        {
+            var url = $"http://www.boredpanda.com{GetBaseUrl()}";
+            if (Parameters.Paging > 1)
+                url += "/page/" + Parameters.Paging;
+            return url;
+        }
 
         private string GetBaseUrl()
         {
@@ -114,7 +120,7 @@ namespace ProgParty.BoredPanda.Api.Scrape
 
         public OverviewResult ConvertSingleResult(HtmlNode node)
         {
-            var aDiv = node.Descendants("div").FirstOrDefault(c => c.Attributes["class"]?.Value == "post-cover-container").Descendants("a").FirstOrDefault();
+            var aDiv = node.Descendants("div").FirstOrDefault(c => c.Attributes["class"]?.Value == "post-cover-container")?.Descendants("a")?.FirstOrDefault();
 
             var o = new OverviewResult()
             {

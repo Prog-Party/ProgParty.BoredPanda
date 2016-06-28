@@ -132,6 +132,13 @@
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
     <Compile Include="BoredPandaDataContext.cs" />
+    <Compile Include="Core\Element\HtmlToRtf\Convert.cs" />
+    <Compile Include="Core\Element\HtmlToRtf\HtmlToRtfConverter.cs" />
+    <Compile Include="Core\Element\HtmlToRtf\ITextContainer.cs" />
+    <Compile Include="Core\Element\HtmlToRtf\ParagraphTextContainer.cs" />
+    <Compile Include="Core\Element\HtmlToRtf\RichTextBlockTextContainer.cs" />
+    <Compile Include="Core\Element\HtmlToRtf\SpanTextContainer.cs" />
+    <Compile Include="Core\Element\HtmlToRtf\XmlConvert.cs" />
     <Compile Include="Core\License\LicenseInfo.cs" />
     <Compile Include="Core\Pages\Contact.xaml.cs">
       <DependentUpon>Contact.xaml</DependentUpon>
