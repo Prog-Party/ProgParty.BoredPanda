@@ -1,5 +1,6 @@
 ﻿using ProgParty.BoredPanda.ApiUniversal.Parameter;
 using ProgParty.BoredPanda.ApiUniversal.Result;
+using ProgParty.BoredPanda.Universal.Core;
 using ProgParty.Core;
 using System.Collections.Generic;
 using System.Linq;

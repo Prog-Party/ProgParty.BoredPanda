@@ -1,0 +1,8 @@
+MainPackage=G:\ProgParty.BoredPanda\ProgParty.BoredPanda.Universal\bin\ARM\Release\ProgParty.BoredPanda.Universal_1.1.8.4_ARM.appx
+SymbolPackage=G:\ProgParty.BoredPanda\ProgParty.BoredPanda.Universal\AppPackages\ProgParty.BoredPanda.Universal_1.1.8.4_Test\ProgParty.BoredPanda.Universal_1.1.8.4_ARM.appxsym
+ResourcePack=G:\ProgParty.BoredPanda\ProgParty.BoredPanda.Universal\bin\ARM\Release\ProgParty.BoredPanda.Universal_1.1.8.4_scale-100.appx
+ResourcePack=G:\ProgParty.BoredPanda\ProgParty.BoredPanda.Universal\bin\ARM\Release\ProgParty.BoredPanda.Universal_1.1.8.4_scale-125.appx
+ResourcePack=G:\ProgParty.BoredPanda\ProgParty.BoredPanda.Universal\bin\ARM\Release\ProgParty.BoredPanda.Universal_1.1.8.4_scale-140.appx
+ResourcePack=G:\ProgParty.BoredPanda\ProgParty.BoredPanda.Universal\bin\ARM\Release\ProgParty.BoredPanda.Universal_1.1.8.4_scale-150.appx
+ResourcePack=G:\ProgParty.BoredPanda\ProgParty.BoredPanda.Universal\bin\ARM\Release\ProgParty.BoredPanda.Universal_1.1.8.4_scale-240.appx
+ResourcePack=G:\ProgParty.BoredPanda\ProgParty.BoredPanda.Universal\bin\ARM\Release\ProgParty.BoredPanda.Universal_1.1.8.4_scale-400.appx

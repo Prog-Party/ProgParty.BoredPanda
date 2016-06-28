@@ -22,6 +22,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bin", "Bin", "{5B984B0C-C7B
 		Bin\ProgParty.Core.dll = Bin\ProgParty.Core.dll
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BinUniversal", "BinUniversal", "{63E3F854-338E-4389-942A-8FB5E8BC7AF5}"
+	ProjectSection(SolutionItems) = preProject
+		BinUniversal\ProgParty.Core.dll = BinUniversal\ProgParty.Core.dll
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

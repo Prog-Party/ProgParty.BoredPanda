@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ProgParty.BoredPanda.Universal.Core.Common;
+using System;
 using Windows.ApplicationModel.Store;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;

@@ -24,6 +24,8 @@
     <AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>
     <AppxBundlePlatforms>x86|arm</AppxBundlePlatforms>
     <AppxBundle>Always</AppxBundle>
+    <PackageCertificateThumbprint>CCAF96943F8B4A6307A002B366163F5F16C3C6AF</PackageCertificateThumbprint>
+    <PackageCertificateKeyFile>ProgParty.BoredPanda.Universal_TemporaryKey.pfx</PackageCertificateKeyFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -155,6 +157,9 @@
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
     <Compile Include="BoredPandaDataContext.cs" />
+    <Compile Include="Core\Common\InAppPurchase.cs" />
+    <Compile Include="Core\Config.cs" />
+    <Compile Include="Core\Connection.cs" />
     <Compile Include="Core\Element\HtmlToRtf\Convert.cs" />
     <Compile Include="Core\Element\HtmlToRtf\HtmlToRtfConverter.cs" />
     <Compile Include="Core\Element\HtmlToRtf\ITextContainer.cs" />
@@ -162,10 +167,20 @@
     <Compile Include="Core\Element\HtmlToRtf\RichTextBlockTextContainer.cs" />
     <Compile Include="Core\Element\HtmlToRtf\SpanTextContainer.cs" />
     <Compile Include="Core\Element\HtmlToRtf\XmlConvert.cs" />
+    <Compile Include="Core\Extension\StringExtension.cs" />
+    <Compile Include="Core\Language.cs" />
     <Compile Include="Core\License\LicenseInfo.cs" />
+    <Compile Include="Core\Notification\Toast.cs" />
     <Compile Include="Core\Pages\Contact.xaml.cs">
       <DependentUpon>Contact.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Core\Register.cs" />
+    <Compile Include="Core\Review\Review.cs" />
+    <Compile Include="Core\Share\SaveImage.cs" />
+    <Compile Include="Core\Share\ShareImage.cs" />
+    <Compile Include="Core\Share\ShareUrl.cs" />
+    <Compile Include="Core\Storage\Storage.cs" />
+    <Compile Include="Core\Store\Routing.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
@@ -208,6 +223,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="ApplicationInsights.config" />
+    <None Include="ProgParty.BoredPanda.Universal_TemporaryKey.pfx" />
     <None Include="project.json" />
     <None Include="Service References\Application Insights\ConnectedService.json" />
   </ItemGroup>
@@ -216,11 +232,6 @@
       <Project>{fa4beccf-5f83-4fd9-92f5-90b8ac3b328d}</Project>
       <Name>ProgParty.BoredPanda.ApiUniversal</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="ProgParty.Core">
-      <HintPath>..\Bin\ProgParty.Core.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>

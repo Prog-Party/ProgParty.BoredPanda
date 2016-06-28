@@ -1,0 +1,2 @@
+MainPackage=G:\ProgParty.BoredPanda\ProgParty.BoredPanda.Universal\bin\x86\Release\Upload\ProgParty.BoredPanda.Universal_1.1.8.4_x86.appx
+SymbolPackage=G:\ProgParty.BoredPanda\ProgParty.BoredPanda.Universal\AppPackages\ProgParty.BoredPanda.Universal_1.1.8.4\ProgParty.BoredPanda.Universal_1.1.8.4_x86.appxsym

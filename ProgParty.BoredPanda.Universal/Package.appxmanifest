@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" IgnorableNamespaces="uap mp">
-  <Identity Name="36742ProgParty.BoredPanda" Publisher="CN=285D7FE7-AC12-4DC2-8B8B-564986501DC7" Version="1.1.6.4" />
+  <Identity Name="36742ProgParty.BoredPanda" Publisher="CN=285D7FE7-AC12-4DC2-8B8B-564986501DC7" Version="1.1.8.4" />
   <mp:PhoneIdentity PhoneProductId="fc9f5cd3-e6f4-4f8e-8d35-24d66b66bb13" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>BoredPanda</DisplayName>
