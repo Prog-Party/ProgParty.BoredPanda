@@ -50,7 +50,7 @@ namespace ProgParty.BoredPanda
 #if DEBUG
             ProgParty.Core.Config.Instance.LicenseInformation = CurrentAppSimulator.LicenseInformation;
 #else
-            Core.Config.Instance.LicenseInformation = CurrentApp.LicenseInformation;
+            ProgParty.Core.Config.Instance.LicenseInformation = CurrentApp.LicenseInformation;
 #endif
 
             ProgParty.Core.License.LicenseInfo.SetLicenseInformation();
