@@ -48,12 +48,12 @@ namespace ProgParty.BoredPanda
             };
 
 #if DEBUG
-            Core.Config.Instance.LicenseInformation = CurrentAppSimulator.LicenseInformation;
+            ProgParty.Core.Config.Instance.LicenseInformation = CurrentAppSimulator.LicenseInformation;
 #else
             Core.Config.Instance.LicenseInformation = CurrentApp.LicenseInformation;
 #endif
 
-            Core.License.LicenseInfo.SetLicenseInformation();
+            ProgParty.Core.License.LicenseInfo.SetLicenseInformation();
 
             Register.Execute();
 
@@ -79,12 +79,12 @@ namespace ProgParty.BoredPanda
 
         private void ContactButton_Click(object sender, RoutedEventArgs e)
         {
-            Frame.Navigate(typeof(Core.Pages.Contact), null);
+            Frame.Navigate(typeof(ProgParty.Core.Pages.Contact), null);
         }
 
         private void BuyBarButton_Click(object sender, RoutedEventArgs e)
         {
-            Frame.Navigate(typeof(Core.Pages.Shop));
+            Frame.Navigate(typeof(ProgParty.Core.Pages.Shop));
         }
 
         private void Grid_Holding(object sender, HoldingRoutedEventArgs e)
@@ -134,9 +134,9 @@ namespace ProgParty.BoredPanda
             ShowGallery(articleCategory);
         }
 
-        private void SaveGalleryType(string name) => new Core.Storage.Storage().StoreInLocal("gallerytype", name);
+        private void SaveGalleryType(string name) => new ProgParty.Core.Storage.Storage().StoreInLocal("gallerytype", name);
 
-        private string GetSavedGalleryType() => new Core.Storage.Storage().LoadFromLocal("gallerytype")?.ToString() ?? "";
+        private string GetSavedGalleryType() => new ProgParty.Core.Storage.Storage().LoadFromLocal("gallerytype")?.ToString() ?? "";
 
         private ArticleCategory GetByName(string name)
         {
@@ -218,7 +218,7 @@ namespace ProgParty.BoredPanda
 
         private void ShareButton_Click(object sender, RoutedEventArgs e)
         {
-            var share = new Core.Share.ShareUrl();
+            var share = new ProgParty.Core.Share.ShareUrl();
 
             share.RegisterForShare(sender as MenuFlyoutItem, ((sender as MenuFlyoutItem).DataContext as OverviewResult).Url);
         }
